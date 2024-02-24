@@ -1,0 +1,5 @@
+# MongoDB
+connection-string: ''
+
+# Settings
+lobby: true

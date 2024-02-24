@@ -1,0 +1,7 @@
+name: MinecraftCup
+version: '${project.version}'
+main: org.minecraftcup.minecraftcup.MinecraftCup
+api-version: '1.20'
+authors: [gamebob2980, Mevune]
+description: The core plugin for the Minecraft Cup network
+website: minecraftcup.org

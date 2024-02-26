@@ -1,7 +1,20 @@
 name: MinecraftCup
 version: '${project.version}'
 main: org.minecraftcup.minecraftcup.MinecraftCup
-api-version: '1.20'
+api-version: '1.19'
 authors: [gamebob2980, Mevune]
 description: The core plugin for the Minecraft Cup network
 website: minecraftcup.org
+softdepend: [PlaceholderAPI]
+commands:
+  vanish:
+    description: Vanish yourself
+    usage: /<command>
+    aliases:
+      - v
+      - hide
+  nick:
+    description: Nick yourself
+    usage: /<command>
+    aliases:
+      - disguise

@@ -18,7 +18,7 @@ public class NickUtil {
                     p.setCustomNameVisible(true);
 
                     nicked.add(p);
-                    p.sendMessage(ChatColor.GREEN + "Now nicked as " + name);
+                    p.sendMessage(ChatColor.GREEN + "You're now nicked as " + name);
                 }else{
                     p.sendMessage(ChatColor.RED + "Name must be 3 or more characters.");
                 }
@@ -29,7 +29,7 @@ public class NickUtil {
             p.setCustomNameVisible(false);
 
             nicked.remove(p);
-            p.sendMessage(ChatColor.GREEN + "No longer nicked.");
+            p.sendMessage(ChatColor.GREEN + "You're no longer nicked.");
         }
     }
 
